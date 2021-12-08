@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="outlines.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>Портфолио Junior верстальщика</title>
+  </head>
 
-You can use the [editor on GitHub](https://github.com/SergL2718/portfolio-step-1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <a class="header-email" href="mailto:enot_neopoznanniy@gmail.com">levchenkoserg@gmail.com</a>
+    <a class="header-phone" href="tel:+71111111111">+7 111 111-11-11</a>
+      </div>
+    </header>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <section class="hero-image">
+      <div class="container">
+          <h1 class="heading">Неопознанный Енот</h1>
+        
+          <p>Junior верстальщик</p>
+        </div>
+      
+    </section>
 
-### Markdown
+    <section class="intro">
+      <div class="container">
+          <h2 class="subheading">Давайте познакомимся</h2>
+          <figure>
+            <img class="user-image" src="files/user.jpg" width="928" height="536" alt="Фотография Неопознанного Енота">
+          </figure>
+          <h3>Пара слов о себе</h3>
+          <p>Текст с парой слов о себе.</p>
+          <h3>Чем могу быть полезен</h3>
+          <p>Текст о том, чем могу быть полезен.</p>
+        </div>
+     
+    </section>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="subheading">Мои работы</h2>
+        <figure class="project-image">
+          <img src="files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
+        </figure>
+        <h3>Магазин товаров для дома</h3>
+        <p>Мой первый сайт.</p>
+        <a class="button" href="source/project/index.html">Открыть страницу</a>
+        <h3>Блог начинающего верстальщика</h3>
+        <p>Статический блог про обучение HTML и CSS.</p>
+    </div>
+    </section>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SergL2718/portfolio-step-1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <footer class="page-footer">
+      <a class="footer-email" href="mailto:enot_neopoznanniy@gmail.com">levchenkoserg@gmail.com</a>
+    <a class="footer-phone" href="tel:+71111111111">+7 111 111-11-11</a>
+    </footer>
+  </body>
+</html>
